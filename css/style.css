@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.shadow-5 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+body {
+    background-color: #364156;
+    background-image: url("../img/pattern.jpg");
+    background-size: 20%;
+    z-index: 1;
+    background-repeat: repeat;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color:#fff;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+   
+}
+h2{
+    padding-top: 20px;
+    font-family: 'Righteous', cursive;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.page {
+    display: block;
+    width: 100%;
+    margin: auto;
+      
+}
+
+.social {
+    flex-direction: row;
+}
+
+.social img{
+   padding-left: 15vh;
+   width: 250px;
+   margin: 0 3%;
+  padding-bottom: 10%;
+}
+
+.hobbies img{
+    padding-left: 15vh;
+    width: 320px;
+    margin: 0 2%;
+    padding-bottom: 10%;
+    text-align: center;
+} 
+
+.series{
+    top: 50%;
+    z-index: 56;
+}
+
+.series img{
+    padding-top: 20px;
+    padding-left: 15vh;
+    width: 320px;
+    margin: 0 2%;
+    padding-bottom: 10%;
+    text-align: center;
+    z-index: 76;
+}
+
+.series iframe{
+    padding-top: 20px;
+    padding-left: 15vh;
+    width: 390px;
+    margin: 0 2%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.cantores img{
+    padding-left: 35vh;
+    text-align: center;
+    width: 350px;
+}
+
+.music{
+    padding-top: 20px;
+    display: inline-table;
+    padding-bottom: 20px;
+}
+
+.yt{
+    padding-top: 3%;
+    top: 50%;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+
+.futuro img{
+    padding-left: 15vh;
+    text-align: center;
+    width: 350px;
+}
+.oracle img{
+    width: 0px;
+}
+
+.memes img{
+    padding-left: 15vh;
+    text-align: center;
+    width: 350px;
+   
+}
+
